@@ -57,4 +57,10 @@
 
 #----------------------------------------------------------------------
 
-# hola mundo quiero hacer un commit nuevo
+texto = "Hola Mundo, quiero hacer un commit nuevo"
+print(texto.upper())
+print(texto.lower())
+print(texto.find("acer"))
+nuevoTexto = texto.replace("Hola", "Adiós")
+print(texto, nuevoTexto)
+print("Adiós" in nuevoTexto)
