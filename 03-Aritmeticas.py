@@ -35,13 +35,51 @@
 
 #conversor de temperaturas 
 
-temperatura = float(input("Ingrese la temperatura a convertir: "))
+#temperatura = float(input("Ingrese la temperatura a convertir: "))
 
-caracter = input("Ingrese 'C' para convertir a Celsius o 'F' para convertir a Fahrenheit: ")
+#caracter = input("Ingrese 'C' para convertir a Celsius o 'F' para convertir a Fahrenheit: ").lower()
 
-if  caracter == 'F' or caracter == 'f':
-    temperatura = temperatura + 273
-    print("La temperatura en farenheit es: ", temperatura, "°F")
-else:
-    print("La temperatura es: ", temperatura, "°C")
+#if   caracter == 'f':
+#    temperatura = temperatura + 273
+#    print("La temperatura en farenheit es: ", temperatura, "°F")
+#elif  caracter == 'c':
+#    print("La temperatura es: ", temperatura, "°C")
+#else:
+#    print("Caracter no válido")
 
+#print("¡Gracias por usar nuestro conversor!")
+
+#Listas
+
+#lenguajes = ["Python", "Ruby", "PHP" ,"JavaScript","Java"]
+#print(lenguajes, "- El segundo elemento sin cambiar")
+#lenguajes[1] = "GO"
+#print(lenguajes, "- El segundo elemento ha cambiado\n")
+
+#print(lenguajes[1:3])
+#print(lenguajes[:3])
+#print(lenguajes[1:])
+
+#metodos de una lista
+#lenguajes = ["Python", "Ruby", "PHP" ,"JavaScript","Java"]
+#lenguajes.insert(3, "GO")
+#lenguajes.insert(0, "C")
+#lenguajes.remove("ruby")
+#print("PHP" in lenguajes)
+#print(len(lenguajes))
+
+# Bucles While 
+
+#lenguajes = ["Python", "Ruby", "PHP" ,"JavaScript","Java"]
+
+#i = 0 
+#while i < len(lenguajes):
+#    print(lenguajes[i])
+#    i = i + 1
+
+#Bucles For
+
+lenguajes = ["Python", "Ruby", "PHP" ,"JavaScript","Java"]
+
+for i in lenguajes:
+    print(i)
