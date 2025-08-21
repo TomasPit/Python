@@ -79,7 +79,8 @@
 
 #Bucles For
 
-lenguajes = ["Python", "Ruby", "PHP" ,"JavaScript","Java"]
+#lenguajes = ["Python", "Ruby", "PHP" ,"JavaScript","Java"]
 
-for i in lenguajes:
-    print(i)
+#for i in lenguajes:
+#    print(i)
+
