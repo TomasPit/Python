@@ -84,10 +84,32 @@
 #for i in lenguajes:
 #    print(i)
 
-def num_max(n1,n2):
-    
-    if n1 > n2:
-        return n1
-    else:
-        return n2
-print(num_max(10, 20))
+#def num_max(n1,n2):   
+#    if n1 > n2:
+#        return n1
+#    else:
+#        return n2
+#print(num_max(10, 20))
+
+#comparo el mayor entre 3 numeros
+
+#def num_may(n1,n2,n3):
+#   if n1 > n2 and n1 > n3:
+#       return n1
+#   elif n2 > n1 and n2 > n3: 
+#       return n2
+#   else: 
+#        return n3    
+#print(num_may(5,3,9))
+
+"""
+funcion que calcula la longitud de una lista o cadena
+"""
+def is_vocal(caracter):
+    lista = ["a", "e", "i", "o", "u"]
+    if caracter in lista:
+        return True
+    else: 
+        return False
+print(is_vocal("u"))
+
