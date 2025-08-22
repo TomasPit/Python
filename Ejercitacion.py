@@ -105,11 +105,13 @@
 """
 funcion que calcula la longitud de una lista o cadena
 """
-def is_vocal(caracter):
-    lista = ["a", "e", "i", "o", "u"]
-    if caracter in lista:
-        return True
-    else: 
-        return False
-print(is_vocal("u"))
+
+#def is_vocal(caracter):
+#   lista = ["a", "e", "i", "o", "u"]
+#   if caracter in lista:
+#       return True
+#   else: 
+#        return False
+#print(is_vocal("u"))
+
 
